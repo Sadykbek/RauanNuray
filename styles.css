@@ -1,0 +1,100 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   color: #fff;
+   background-color: #121212;
+ }
+ 
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   background-color: #1f1f1f;
+ }
+ 
+ .logo {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ 
+ .logo span {
+   color: #5cb85c;
+ }
+ 
+ .nav a {
+   margin: 0 1rem;
+   color: #ccc;
+   text-decoration: none;
+ }
+ 
+ .auth-buttons .login, .auth-buttons .signup {
+   padding: 0.5rem 1rem;
+   border: none;
+   margin-left: 0.5rem;
+ }
+ 
+ .auth-buttons .signup {
+   background-color: #5cb85c;
+   color: #fff;
+ }
+ 
+ .portfolio-container {
+   margin: 2rem;
+ }
+ 
+ .tab-menu {
+   display: flex;
+   gap: 1rem;
+ }
+ 
+ .tab {
+   padding: 0.5rem 1rem;
+   background: #2a2a2a;
+   color: #ccc;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .tab.active {
+   background: #5cb85c;
+   color: #fff;
+ }
+ 
+ .portfolio-table {
+   width: 100%;
+   margin-top: 1rem;
+   border-collapse: collapse;
+ }
+ 
+ .portfolio-table th, .portfolio-table td {
+   padding: 0.5rem 1rem;
+   text-align: left;
+   border-bottom: 1px solid #333;
+ }
+ 
+ .portfolio-table .positive {
+   color: #5cb85c;
+ }
+ 
+ .buy-button {
+   padding: 0.5rem 1rem;
+   background: #5cb85c;
+   color: #fff;
+   border: none;
+ }
+ 
+ footer {
+   background-color: #1f1f1f;
+   padding: 2rem;
+ }
+ 
+ .footer-section {
+   margin-bottom: 1rem;
+ }
+ 
+ .social-icons a {
+   color: #ccc;
+   margin-right: 1rem;
+ }
+ 
